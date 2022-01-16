@@ -7,8 +7,9 @@
   "unpkg": "dist/juln-hooks.min.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "build": "rollup -c",
-    "test": "jest --colors --coverage"
+    "test": "jest --colors --coverage",
+    "build": "npm run clean && rollup -c",
+    "clean": "rimraf ./dist && rimraf ./es && rimraf ./lib"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,7 @@
     "enzyme": "^3.11.0",
     "jest": "^27.4.7",
     "jest-enzyme": "^7.1.2",
+    "rimraf": "^3.0.2",
     "rollup": "^2.64.0",
     "rollup-plugin-typescript2": "^0.31.1",
     "ts-jest": "^27.1.2",
