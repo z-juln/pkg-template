@@ -1,14 +1,14 @@
-import React, { useRef } from "react";
+import React, { useRef } from 'react';
 
-export type HelloWorldProps = {};
+export interface HelloWorldProps extends CommonProps {}
 
-const HelloWorld: React.FC<HelloWorldProps> = () => {
+const HelloWorld: React.FC<HelloWorldProps> = ({ className = '', style = {} }) => {
   const ref = useRef(0);
 
   return (
-    <>
+    <div className={`${className} HelloWorld`} style={style}>
       <h1 key={ref.current}>Hello World!</h1>
-    </>
+    </div>
   );
 };
 

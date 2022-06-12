@@ -1,9 +1,11 @@
-const fabric = require('@umijs/fabric');
-
 module.exports = {
-  extends: [fabric.eslint],
+  extends: [require.resolve('@umijs/fabric/dist/eslint')],
 
   rules: {
     // your rules
+    "@typescript-eslint/no-empty-interface": 0,
+    "max-len": ["error", { code: 100 }],
   },
+
+  ignorePatterns: ["**/setupTests.ts"],
 };

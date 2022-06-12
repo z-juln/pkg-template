@@ -1,8 +1,8 @@
-import getText from "../index";
+import getText from '../index';
 
-describe("getText", () => {
+describe('getText', () => {
   it('getText() === "hello world"', () => {
     const text = getText();
-    expect(text).toBe("hello world");
+    expect(text).toBe('hello world');
   });
 });

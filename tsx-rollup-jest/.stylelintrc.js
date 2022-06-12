@@ -1,7 +1,5 @@
-const fabric = require('@umijs/fabric');
-
 module.exports = {
-  extends: [fabric.stylelint],
+  extends: [require.resolve('@umijs/fabric/dist/stylelint')],
   rules: {
     // your rules
   },
