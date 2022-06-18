@@ -1,3 +1,23 @@
 {
-  "editor.formatOnSave": true
+  "todo-tree.regex.regex": "(<%.*?%>)",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.vueIndentScriptAndStyle": false,
+  "eslint.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.quiet": false,
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ]
 }
