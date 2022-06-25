@@ -1,6 +1,6 @@
 {
   "name": "@pkg-tpl/tsx-rollup-jest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tsx+rollup+jest的项目模板",
   "main": "index.js",
   "files": [

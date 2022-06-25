@@ -14,7 +14,7 @@
   package.json
   README.md
 ```
-template目录下为模板代码
+template目录下为模板代码, `.git`目录即`__.git`目录
 
 ## 包含模板
 - `@pkg-tpl/tsx-rollup-jest`: tsx+rollup+jest的项目模板
