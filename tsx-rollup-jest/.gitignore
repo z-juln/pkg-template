@@ -12,9 +12,7 @@ es
 dist
 build
 coverage
-
-# package-lock.json
-pnpm-lock.yaml
+.eslintcache
 
 *.log
 
