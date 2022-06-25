@@ -1,61 +1,28 @@
 {
-  "name": "juln-hooks",
+  "name": "@pkg-tpl/tsx-rollup-jest",
   "version": "1.0.0",
-  "description": "",
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "unpkg": "dist/juln-hooks.min.js",
-  "typings": "lib/index.d.ts",
-  "scripts": {
-    "prepare": "husky install",
-    "test": "jest --watch",
-    "coverage": "jest --colors --coverage && jest-coverage-badges --output ./doc/assets",
-    "build": "npm run clean && rollup -c && npm run coverage",
-    "clean": "rimraf ./dist && rimraf ./es && rimraf ./lib"
+  "description": "tsx+rollup+jest的项目模板",
+  "main": "index.js",
+  "files": [
+    "template/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z-juln/pkg-template.git"
   },
-  "lint-staged": {
-    "src/**/*.{js,ts,tsx}": [
-      "prettier --write",
-      "npx eslint --cache --fix",
-      "git add"
-    ],
-    "src/**/.*.{css,less,scss,sass}": [
-      "stylelint --fix"
-    ]
-  },
-  "keywords": [],
+  "keywords": [
+    "pkg-tpl",
+    "template",
+    "ts",
+    "tsx",
+    "rollup",
+    "jest",
+    "juln"
+  ],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@rollup/plugin-commonjs": "^21.0.1",
-    "@rollup/plugin-node-resolve": "^13.1.3",
-    "@types/enzyme": "^3.10.11",
-    "@types/jest": "^27.4.0",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
-    "@umijs/fabric": "^2.12.0",
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
-    "enzyme": "^3.11.0",
-    "husky": "^8.0.1",
-    "jest": "^27.4.7",
-    "jest-coverage-badges": "^1.1.2",
-    "jest-enzyme": "^7.1.2",
-    "lint-staged": "^13.0.1",
-    "prettier": "^2.6.2",
-    "rimraf": "^3.0.2",
-    "rollup": "^2.64.0",
-    "rollup-plugin-typescript2": "^0.31.1",
-    "stylelint": "^14.9.1",
-    "ts-jest": "^27.1.2",
-    "tsd": "^0.20.0",
-    "typescript": "^4.5.4"
-  },
-  "dependencies": {
-    "react": ">=17.0.2",
-    "react-dom": ">=17.0.2"
-  },
-  "peerDependencies": {
-    "react": ">=17.0.2",
-    "react-dom": ">=17.0.2"
+  "bugs": {
+    "url": "https://github.com/z-juln/pkg-template/issues",
+    "homepage": "https://github.com/z-juln/pkg-template#readme"
   }
 }
