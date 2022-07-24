@@ -1,0 +1,27 @@
+{
+  "name": "@pkg-tpl/simple-pkg-ts",
+  "version": "1.0.0",
+  "description": "基于ts的简单的npm包的项目模板",
+  "main": "index.js",
+  "files": [
+    "template/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z-juln/pkg-template.git"
+  },
+  "keywords": [
+    "pkg-tpl",
+    "template",
+    "ts",
+    "pkg",
+    "tsc",
+    "juln"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z-juln/pkg-template/issues",
+    "homepage": "https://github.com/z-juln/pkg-template#readme"
+  }
+}

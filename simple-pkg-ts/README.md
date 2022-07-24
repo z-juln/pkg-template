@@ -1,6 +1,6 @@
-# @pkg-tpl/tsx-rollup-jest
+# @pkg-tpl/simple-pkg-ts
 
-tsx+rollup+jest的项目模板
+基于ts的简单的npm包的项目模板
 
 ## 模板规范
 
