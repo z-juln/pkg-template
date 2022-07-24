@@ -1,6 +1,6 @@
 {
   "name": "@pkg-tpl/simple-pkg-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于ts的简单的npm包的项目模板",
   "main": "index.js",
   "files": [
