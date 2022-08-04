@@ -1,9 +1,15 @@
 # pkg-template
 包含一系列的代码模板
 
+## 模板安装
+
+以模板`simple-pkg-ts`、项目名为`demo`、下载到路径`./my-demo`为例, 如果有特别需求请查看 [`pull-ejs-tpl`](https://www.npmjs.com/package/pull-ejs-tpl)
+
+`npx pull-ejs-tpl git https://github.com/z-juln/pkg-template.git -o=./my-demo -d simple-pkg-ts/template --params.name=demo`
+
 ## 模板规范
 
-> 代码模板是基于 [`super-ejs`](https://github.com/z-juln/super-ejs) 编写的
+> 代码模板是基于 [`pull-ejs-tpl`](https://www.npmjs.com/package/pull-ejs-tpl) 编写的
 
 目录结构:
 
@@ -14,10 +20,10 @@
   package.json
   README.md
 ```
-template目录下为模板代码, `.git`目录即`__.git`目录
 
 ## 包含模板
 - `@pkg-tpl/tsx-rollup-jest`: tsx+rollup+jest的项目模板
+- `@pkg-tpl/simple-pkg-ts`: 基于ts的简单的npm包的项目模板
 <!-- new block (该行是new脚本的占位符，不可删除) -->
 
 ## 未来展望
