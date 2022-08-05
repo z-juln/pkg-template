@@ -1,3 +1,3 @@
-const demo = () => {};
+const <%= changeCase(name, 'lower-camel-case') %> = () => {};
 
-export default demo;
+export default <%= changeCase(name, 'lower-camel-case') %>;
