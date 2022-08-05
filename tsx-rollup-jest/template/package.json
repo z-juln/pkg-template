@@ -1,10 +1,10 @@
 {
-  "name": "juln-hooks",
+  "name": "<%= changeCase(name, 'kebab') %>",
   "version": "1.0.0",
-  "description": "",
+  "description": "<%= locals.description || changeCase(name, 'kebab') %>",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "unpkg": "dist/juln-hooks.min.js",
+  "unpkg": "dist/<%= changeCase(name, 'kebab') %>.min.js",
   "typings": "lib/index.d.ts",
   "scripts": {
     "prepare": "husky install",

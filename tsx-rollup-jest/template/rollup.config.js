@@ -35,7 +35,7 @@ const options = {
     getOutput({
       file: path.resolve(__dirname, pkgJson.unpkg),
       format: "umd",
-      name: "juln-hooks",
+      name: "<%= changeCase(name, 'kebab') %>",
     }),
   ],
   external: ["react"],
