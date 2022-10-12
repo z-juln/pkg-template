@@ -1,10 +1,10 @@
-# changeCase(name, 'kebab')
+# <%= changeCase(name, 'kebab') %>
 
 npm包缓存管理
 
 ## install
 
-`npm i changeCase(name, 'kebab')`
+`npm i <%= changeCase(name, 'kebab') %>`
 
 ## use
 
