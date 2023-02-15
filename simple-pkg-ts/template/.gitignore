@@ -14,6 +14,7 @@ dist
 build
 coverage
 .eslintcache
+yarn-error.log
 
 *.log
 
