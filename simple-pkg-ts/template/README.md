@@ -1,6 +1,6 @@
 # <%= changeCase(name, 'kebab') %>
 
-npm包缓存管理
+<%= changeCase(name, 'kebab') %>
 
 ## install
 
