@@ -24,6 +24,7 @@
 ## 包含模板
 - `@pkg-tpl/tsx-rollup-jest`: tsx+rollup+jest的项目模板
 - `@pkg-tpl/simple-pkg-ts`: 基于ts的简单的npm包的项目模板
+- `@pkg-tpl/react-ts-vite-admin`: react+ts+vite的后台项目模板
 <!-- new block (该行是new脚本的占位符，不可删除) -->
 
 ## 未来展望
