@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>年度报告</title>
+  <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height ,initial-scale=1, maximum-scale=1">
+  <!-- loading -->
+  <style>html,body{margin:0;padding:0;}body{--bg:#ffffff;}body[ui-theme="dark"]{--bg:#24262b;}#page-loading-box{width:100%;height:100vh;display:flex;align-items:center;justify-content:center;background-color:var(--bg);}#page-loading-box>img{width:150px;height:150px;}</style>
+</head>
+
+<body>
+  <div id='app'>
+    <!-- loading -->
+    <div id="page-loading-box"><img src='https://activity-static.hoopchina.com.cn/images/2322-40ejwrrc-upload-1675339225010-2.gif' alt="正在加载数据" /></div>
+  </div>
+  <!-- theme -->
+  <%- (typeof disableTheme === 'undefined' || disableTheme === false) ? `<script>(function(){var e=function e(){var e=document.querySelector("body");o=true;console.info("Set theme to dark!");e===null||e===void 0?void 0:e.setAttribute("ui-theme","dark")};var t=function e(){var e=document.querySelector("body");o=false;console.info("Set theme to light!");e===null||e===void 0?void 0:e.setAttribute("ui-theme","light")};var n=function e(){return o?"dark":"light"};var r=function n(){var n=d();if(n==="dark"){console.info("Change to [dark] theme!");o=true;e();return}else if(n==="light"){console.info("Change to [light] theme!");o=false;t();return}};var i=function n(){try{var n=window.navigator.userAgent;var i=/kanqiu/.test(n.toLowerCase());if(!i&&d()===null){if(window.matchMedia("(prefers-color-scheme: dark)").matches){e()}else{t()}var o=window.matchMedia("(prefers-color-scheme: dark)");var a=window.matchMedia("(prefers-color-scheme: light)");var l;((l=o.addEventListener)!==null&&l!==void 0?l:o.addListener)("change",function(t){if(t.matches){e()}});var c;((c=a.addEventListener)!==null&&c!==void 0?c:a.addListener)("change",function(e){if(e.matches){t()}})}r()}catch(e){console.warn("\\uD83D\\uDC47 Init color failed!","\\n",JSON.stringify(e))}};var o=false;var a;var d=function(){var e,t;if(a!==undefined)return a;var n=((e=document.location.href.match(/(night|dark)=([^&]*)/))===null||e===void 0?void 0:e[2])==="1";var r=((t=document.location.href.match(/(night|dark)=([^&]*)/))===null||t===void 0?void 0:t[2])==="0";if(n)a="dark";else if(r)a="light";else a=null;return a};i()})();</script>` : '' %>
+  <!-- loading -->
+  <script>if(document.body.getAttribute("ui-theme")==="dark"){const t=document.querySelector("#page-loading-box > img");t.src="https://activity-static.hoopchina.com.cn/images/2322-w5hz1erc-upload-1675339225010-3.gif"}</script>
+</body>
+</html>

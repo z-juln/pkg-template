@@ -1,0 +1,28 @@
+{
+  "name": "@pkg-tpl/react-ts-webpack-mobile",
+  "version": "1.0.0",
+  "description": "react-ts-webpack的移动端项目模板",
+  "main": "index.js",
+  "files": [
+    "template/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z-juln/pkg-template.git"
+  },
+  "keywords": [
+    "pkg-tpl",
+    "template",
+    "ts",
+    "typescript",
+    "webpack",
+    "mobile",
+    "juln"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z-juln/pkg-template/issues",
+    "homepage": "https://github.com/z-juln/pkg-template#readme"
+  }
+}
