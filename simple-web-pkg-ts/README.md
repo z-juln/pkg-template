@@ -1,6 +1,6 @@
-# @pkg-tpl/simple-pkg-ts
+# simple-web--pkg-ts
 
-基于ts的简单的npm包的项目模板
+基于 ts 的简单的, 用于 web 的 npm 包的项目模板
 
 ## 模板规范
 
@@ -12,5 +12,4 @@
 /
   template
     ...
-  package.json
 ```

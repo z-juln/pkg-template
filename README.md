@@ -1,4 +1,5 @@
 # pkg-template
+
 包含一系列的代码模板
 
 ## 模板安装
@@ -17,20 +18,15 @@
 /<template-name>
   template
     ...
-  package.json
-  README.md
+    package.json (包含: "pull-ejs-tpl": { "registory": "https://github.com/z-juln/pkg-template/tree/v2/projects/react-ts-vite-admin/" }, 用于定位template-plugins, 可选)
+  template-plugins(可选)
+    ...
 ```
 
 ## 包含模板
-- `@pkg-tpl/tsx-rollup-jest`: tsx+rollup+jest的项目模板
-- `@pkg-tpl/simple-pkg-ts`: 基于ts的简单的npm包的项目模板
-- `@pkg-tpl/react-ts-vite-admin`: react+ts+vite的后台项目模板
+
+- `tsx-rollup-jest`: tsx+rollup+jest 的项目模板
+- `simple-node-pkg-ts`: 基于 ts 的简单的, 用于 node 的 npm 包的项目模板
+- `simple-web-pkg-ts`: 基于 ts 的简单的, 用于 web 的 npm 包的项目模板
+- `react-ts-vite-admin`: react+ts+vite 的后台项目模板
 <!-- new block (该行是new脚本的占位符，不可删除) -->
-
-## 未来展望
-把构建流程继承到单独的cli中: `@pkg-tpl/cli`
-
-支持以下命令:
-- init: --single --multi 默认为`multi`模式，即构建多template的项目
-- new: 支持构建初始化代码，需填写`template-name`和`description`, 且自动在readme中的占位符`<!-- new block -->`前添加新的描述
-- publish: 指定某个模板自动升级版本号（默认升级minor版本），并`npm publish`

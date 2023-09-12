@@ -1,0 +1,37 @@
+{
+  "name": "<%= changeCase(name, 'kebab') %>",
+  "version": "1.0.0",
+  "description": "<%= locals.description || changeCase(name, 'kebab') %>",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "es/*",
+    "lib/*",
+    "src/*"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "npm run clean && rollup -c",
+    "clean": "rimraf ./es && rimraf ./lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.17",
+    "@babel/preset-env": "^7.22.15",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@types/react": "^18.2.20",
+    "react": "^16.9.0",
+    "rimraf": "^5.0.1",
+    "rollup": "^3.29.1",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0"
+  }
+}

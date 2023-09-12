@@ -1,6 +1,6 @@
-# @pkg-tpl/react-ts-vite-admin
+# simple-node-pkg-ts
 
-react+ts+vite的后台项目模板
+基于 ts 的简单的, 用于 node 的 npm 包的项目模板
 
 ## 模板规范
 
@@ -12,5 +12,4 @@ react+ts+vite的后台项目模板
 /
   template
     ...
-  package.json
 ```

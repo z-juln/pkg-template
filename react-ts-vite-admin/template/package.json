@@ -36,5 +36,8 @@
     "stylelint": "^14.10.0",
     "typescript": "^4.7.4",
     "vite": "^3.0.8"
+  },
+  "pull-ejs-tpl": {
+    "registory": "https://github.com/z-juln/pkg-template/tree/v2/projects/react-ts-vite-admin/"
   }
 }
