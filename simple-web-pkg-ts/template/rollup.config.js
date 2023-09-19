@@ -29,12 +29,14 @@ const options = {
   ],
   output: [
     getOutput({
-      file: path.resolve(__dirname, pkgJson.main),
+      dir: path.resolve(__dirname, 'lib'),
       format: "cjs",
+      preserveModules: true,
     }),
     getOutput({
-      file: path.resolve(__dirname, pkgJson.module),
+      dir: path.resolve(__dirname, 'es'),
       format: "es",
+      preserveModules: true,
     }),
   ],
   external: ["react"],
