@@ -7,6 +7,8 @@
 
 `npx pull-ejs-tpl git https://github.com/z-juln/pkg-template.git -o=./my-demo -d simple-pkg-ts/template --params.name=demo`
 
+没有vpn的话, 建议用gitee上的模板仓库(但可能不会及时更新到最新版): `npx pull-ejs-tpl git https://gitee.com/juln/pkg-template.git -o=./my-demo -d simple-pkg-ts/template --params.name=demo`
+
 ## 模板规范
 
 > 代码模板是基于 [`pull-ejs-tpl`](https://www.npmjs.com/package/pull-ejs-tpl) 编写的
