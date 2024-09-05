@@ -1,0 +1,29 @@
+{
+  "name": "@pkg-tpl/rc",
+  "version": "1.0.0",
+  "description": "react组件库",
+  "main": "index.js",
+  "files": [
+    "template/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z-juln/pkg-template.git"
+  },
+  "keywords": [
+    "pkg-tpl",
+    "template",
+    "rc",
+    "ts",
+    "pkg",
+    "tsc",
+    "react",
+    "juln"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z-juln/pkg-template/issues",
+    "homepage": "https://github.com/z-juln/pkg-template#readme"
+  }
+}
